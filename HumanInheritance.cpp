@@ -44,8 +44,8 @@ public:
 int main()
 {
     Doctor d ("Jack",10);
-    d. work();
-
+    Human h ("Alex");
+    cout << get_name(h);
 
     
 }
