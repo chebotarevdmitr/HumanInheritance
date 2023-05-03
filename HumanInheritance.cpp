@@ -45,7 +45,7 @@ int main()
 {
     Doctor d ("Jack",10);
     Human h ("Alex");
-    cout << get_name(h);
+    cout << get_name(d)<<endl;
 
     
 }
