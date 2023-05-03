@@ -40,8 +40,8 @@ public:
 
 int main()
 {
-    Human h("Jack");
-    h. work();
+    Doctor d ("Jack",10);
+    d. work();
 
 
     
