@@ -17,10 +17,13 @@ public:
     ~ Human() {
         cout << " ~ Human()" << endl;
     }
-public:
+private:
     string name;
-
+    friend string get_name(Human&);
  };
+string get_name(Human& h) {
+    return h.name;
+}
 
 class Doctor : public Human {
 public:
